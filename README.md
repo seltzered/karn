@@ -21,9 +21,9 @@ brew install karn
 Head to the [releases](https://github.com/prydonius/karn/releases) page to download pre-built binaries for OS X/Linux/Windows.
 
 ### Go
-You can install karn using Go with the following command:
+You can install karn using Go with the following command (you may optionally want to change `latest` to the most recent release tag):
 ```
-go get github.com/prydonius/karn/cmd/karn
+go install github.com/prydonius/karn/cmd/karn@latest
 ```
 
 ### Arch Linux
